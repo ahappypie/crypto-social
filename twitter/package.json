@@ -1,0 +1,19 @@
+{
+  "name": "crypto-twitter",
+  "version": "0.0.1",
+  "description": "Pipes Twitter to sentiment and Timescaledb",
+  "main": "build/server.js",
+  "author": "Brian Bagdasarian",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node pipe.js"
+  },
+  "dependencies": {
+    "grpc": "^1.7.1",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "redis": "^2.8.0",
+    "sequelize": "^4.15.0",
+    "twitter": "^1.7.1"
+  }
+}
